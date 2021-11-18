@@ -1,0 +1,21 @@
+.imagen {
+    height: 400px;
+}
+
+@media (min-width: 768px) { 
+    .imagen {
+        height: 300px;
+    }
+}
+
+@media (max-width: 460px) { 
+    .imagen {
+        height: 300px;
+    }
+}
+
+@media (max-width: 350px) { 
+    .imagen {
+        height: 250px;
+    }
+}
