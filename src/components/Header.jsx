@@ -37,17 +37,17 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subti
                             </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="/" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#Nosotros" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu2}
                             </a>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="/" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#Servicios" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu3}
                             </a>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="/" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#Habitaciones" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu4}
                             </a>
                         </NavItem>
@@ -57,7 +57,7 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subti
                             </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="/" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#Contacto" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu6}
                             </a>
                         </NavItem>
