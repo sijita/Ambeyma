@@ -1,3 +1,5 @@
+import React from 'react';
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import {
     Nav,
@@ -8,18 +10,15 @@ import {
     NavItem,
 } from "reactstrap";
 import Logo from "../images/Logo.png";
-import Styles from '../css/header.module.css';
-import { NavLink } from "react-router-dom";
+import Styles from '../css/header.module.css'
 
-
-export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subtitulo }) {
+export default function NavBar({ menu1, menu2, menu3, menu4, menu5, menu6}) {
 
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <header className={`${isOpen ? Styles.header2 : Styles.header}`}>
-            <Navbar expand="lg" className={`${isOpen ? Styles.navBar : Styles.navBar2}`} light>
+        <Navbar expand="lg" className={`${Styles.navBar}`} light>
                 <NavbarBrand className="m-0 p-0 d-lg-none" href="/">
                     <img src={Logo} alt="Logo" width="170" />
                 </NavbarBrand>
@@ -32,7 +31,7 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subti
                             </NavbarBrand>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <NavLink to={"/"} className="text-decoration-none" style={{ color: '#F23339', fontWeight: '600' }}>
+                            <NavLink to={"/"} className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu1}
                             </NavLink>
                         </NavItem>
@@ -52,7 +51,7 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subti
                             </a>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <NavLink to={"/Galeria"} className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <NavLink to={"/Galeria"} className="text-decoration-none" style={{ color: '#F23339', fontWeight: '600' }}>
                                 {menu5}
                             </NavLink>
                         </NavItem>
@@ -64,10 +63,5 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subti
                     </Nav>
                 </Collapse>
             </Navbar>
-            <div className={isOpen ? "d-none" : "" + Styles.subHeader}>
-                {/* <h1 className={`${Styles.headerTitle} mb-3`}>{titulo}</h1> */}
-                <h1 className={`${Styles.headerSubtitle} mb-0`}>El <span style={{ color: '#F23339' }}>lugar ideal</span> para descansar y vivir momentos agradables con tu familia y amigos</h1>
-            </div>
-        </header>
-    );
+    )
 }

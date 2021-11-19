@@ -1,4 +1,4 @@
-
+import Header from "../components/Header";
 import AboutSection from '../components/AboutSection';
 import BedSection from '../components/BedSection';
 import ServicesSection from '../components/ServicesSection';
@@ -8,6 +8,14 @@ import ContactSection from '../components/ContactSection';
 const Home = () => {
     return (
         <>
+            <Header
+                menu1="Inicio"
+                menu2="Nosotros"
+                menu3="Servicios"
+                menu4="Habitaciones"
+                menu5="Galería"
+                menu6="Contacto"
+            />
             <AboutSection
                 titulo='Hostería Ambeyma' 
                 subtitulo='Sobre nosotros' 
