@@ -12,7 +12,7 @@ export function Card({ titulo, subtitulo, texto, imagen }) {
             <a href="/" className="text-center mb-4 mb-sm-0 text-decoration-none btn btn-sm rounded-3 w-50 mx-auto p-2 text-light rounded-pill btn-danger" style={{backgroundColor: '#E32E33'}}>Más información</a>
         </div>
         <div className="col d-flex align-items-center">
-            <img src={imagen} alt="Imagen" className="img-fluid rounded-3" width="100%" style={{objectFit: "cover", maxHeight: "350px"}} />
+            <img src={imagen} alt="Imagen" className="img-fluid rounded-3 shadow" width="100%" style={{objectFit: "cover", maxHeight: "350px"}} />
         </div>
     </div>
     )
