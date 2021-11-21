@@ -47,25 +47,11 @@
   font-weight: 600;
 }
 
-/* .headerTitle {
-    font-weight: 600;
-    font-size: 70px;
-} */
-
-@media (max-width: 575.98px) { 
-  /* .headerTitle {
-    font-size: 55px;
-  } */
+@media (max-width: 575.98px) {
   .headerSubtitle {
     font-size: 40px;
   }
  }
-
- /* @media (max-width: 280px) { 
-  .headerTitle {
-    font-size: 40px;
-  }
- } */
 
  @media (max-width: 390px) { 
   .headerNav {
@@ -80,15 +66,3 @@
     font-size: 11px;
   }
  }
-
-/* @media (min-width: 576px) { 
-  .headerTitle {
-    font-size: 60px;
-  }
- } */
-
- /* @media (min-width: 992px) { 
-   .headerTitle {
-     font-size: 70px;
-   }
-  } */

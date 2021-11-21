@@ -12,7 +12,7 @@ import Styles from '../css/header.module.css';
 import { NavLink } from "react-router-dom";
 
 
-export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subtitulo }) {
+export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
 
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
@@ -37,27 +37,27 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subti
                             </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="#Nosotros" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#nosotros" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu2}
                             </a>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="#Servicios" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#servicios" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu3}
                             </a>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="#Habitaciones" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#habitaciones" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu4}
                             </a>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <NavLink to={"/Galeria"} className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <NavLink to={"/galeria"} className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu5}
                             </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="#Contacto" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <a href="#contacto" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu6}
                             </a>
                         </NavItem>
@@ -65,7 +65,6 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6, subti
                 </Collapse>
             </Navbar>
             <div className={isOpen ? "d-none" : "" + Styles.subHeader}>
-                {/* <h1 className={`${Styles.headerTitle} mb-3`}>{titulo}</h1> */}
                 <h1 className={`${Styles.headerSubtitle} mb-0`}>El <span style={{ color: '#F23339' }}>lugar ideal</span> para descansar y vivir momentos agradables con tu familia y amigos</h1>
             </div>
         </header>

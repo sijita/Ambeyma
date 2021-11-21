@@ -26,12 +26,16 @@ const Home = () => {
                 servicio2='Piscinas'
                 servicio3='Bar'
                 servicio4='Eventos'
-                servicio5='Sinteticas'
+                servicio5='Sintéticas'
                 servicio6='WiFi'
             />
             <BedSection />
             <ContactSection />
-            <Footer />
+            <Footer 
+                direccion='CR 10 # 12-21 - Garzón, Huila'
+                celular='311 2194526'
+                correo='hosteriaambeymagarzon@hotmail.com'
+            />
         </>
     );
 }

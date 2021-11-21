@@ -12,7 +12,7 @@ import {
 import Logo from "../images/Logo.png";
 import Styles from '../css/header.module.css'
 
-export default function NavBar({ menu1, menu2, menu3, menu4, menu5, menu6}) {
+export default function NavBar({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
 
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
