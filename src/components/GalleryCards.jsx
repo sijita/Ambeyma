@@ -13,6 +13,7 @@ export default function GalleryCards({ titulo, texto, imagen1, imagen2, imagen3,
             </div>
                 <Carousel plugins={[
                     'infinite',
+                    'fastSwipe',
                     {
                     resolve: autoplayPlugin,
                     options: {
