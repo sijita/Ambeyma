@@ -1,11 +1,11 @@
 import Habitacion1 from '../images/sencilla.jpg'
 import Habitacion2 from '../images/doble.jpg'
 import Habitacion3 from '../images/grupales.jpg'
-import Habitacion4 from '../images/especial3.jpg'
+import Habitacion4 from '../images/especial.jpg'
 import Styles from '../css/bed.module.css'
 import { TiUserOutline, TiGroupOutline, TiUserAddOutline, TiHeartOutline } from 'react-icons/ti'
 
-export default function BedSection() {
+export default function BedSection({ habitacion1, habitacion2, habitacion3, habitacion4 }) {
     
     const x = <TiUserOutline className="fs-5" style={{color: '#E32E33'}} />
     const y = <TiUserAddOutline className="fs-5" style={{color: '#E32E33'}} />
@@ -19,32 +19,29 @@ export default function BedSection() {
                 <div className={`${Styles.bed} col p-3 card border-0`}>
                     <img src={Habitacion1} alt="Habitación1" className={`${Styles.imagen} rounded shadow`} width="100%"  style={{objectFit: 'cover'}} />
                     <div className="card-body d-flex flex-column justify-content-center align-items-center" style={{height: '100px'}}>
-                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{x}&nbsp;Sencilla</h4>
-                        <p className="text-center m-0 fs-5">Habitaciones con una cama</p>
+                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{x}{x}&nbsp;{habitacion1}</h4>
                     </div>
                 </div>
                 <div className={`${Styles.bed} col p-3 card border-0`}>
                     <img src={Habitacion2} alt="Habitación2" className={`${Styles.imagen} rounded shadow`} width="100%"  style={{objectFit: 'cover'}} />
                     <div className="card-body d-flex flex-column justify-content-center align-items-center" style={{height: '100px'}}>
-                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{y}&nbsp;Doble</h4>
-                        <p className="text-center m-0 fs-5">Habitaciones con dos camas</p>
+                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{y}&nbsp;{habitacion2}</h4>
                     </div>
                 </div>
                 <div className={`${Styles.bed} col p-3 card border-0`}>
                     <img src={Habitacion3} alt="Habitación3" className={`${Styles.imagen} rounded shadow`} width="100%"  style={{objectFit: 'cover'}} />
                     <div className="card-body d-flex flex-column justify-content-center align-items-center" style={{height: '100px'}}>
-                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{z}&nbsp;Grupal</h4>
-                        <p className="text-center m-0 fs-5">Habitaciones con más de dos camas</p>
+                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{z}&nbsp;{habitacion3}</h4>
                     </div>
                 </div>
                 <div className={`${Styles.bed} col p-3 card border-0`}>
                     <img src={Habitacion4} alt="Habitación4" className={`${Styles.imagen} rounded shadow`} width="100%"  style={{objectFit: 'cover'}} />
                     <div className="card-body d-flex flex-column justify-content-center align-items-center" style={{height: '100px'}}>
-                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{w}&nbsp;Especial</h4>
-                        <p className="text-center m-0 fs-5">Habitaciones decoradas</p>
+                        <h4 className="d-flex align-items-center" style={{color: '#F23339'}}>{w}&nbsp;{habitacion4}</h4>
                     </div>
                 </div>
             </div>
+            <a href="/" className={`${Styles.button} d-block mx-auto text-decoration-none btn btn-sm p-2 text-light rounded-pill btn-danger fs-6`} style={{backgroundColor: '#E32E33'}}>Ver más</a>
         </section>
     )
 }

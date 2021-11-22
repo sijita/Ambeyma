@@ -5,3 +5,13 @@
 .imagen {
     height: 400px;
 }
+
+.button {
+    width: 300px;
+}
+
+@media (max-width: 575.98px) { 
+    .button {
+        width: 100%;
+    }
+ }
