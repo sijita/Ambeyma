@@ -21,7 +21,7 @@ export function Card({ titulo, subtitulo, texto, imagen }) {
 export default function AboutSection({ titulo, subtitulo, texto }) {
 
     return (
-            <section className="container p-5 my-lg-5" id="nosotros">
+            <section className="container p-4 my-lg-5" id="nosotros">
                 <div className="card rounded-3 border-0">
                     <Card titulo={titulo} 
                     subtitulo={subtitulo} 

@@ -18,14 +18,14 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <header className={`${isOpen ? Styles.header2 : Styles.header}`}>
-            <Navbar expand="lg" className={`${isOpen ? Styles.navBar : Styles.navBar2}`} light>
+        <header className={`${Styles.header}`}>
+            <Navbar expand="lg" className={`${isOpen ? Styles.navBar : Styles.navBar2} align-content-start pt-1`} light>
                 <NavbarBrand className="m-0 p-0 d-lg-none" href="/">
                     <img src={Logo} alt="Logo" width="170" />
                 </NavbarBrand>
                 <NavbarToggler className="border-0" onClick={toggle} />
-                <Collapse className='justify-content-center' navbar isOpen={isOpen}>
-                    <Nav className='gap-3 gap-lg-4 gap-xl-5' style={{ fontWeight: '500' }} navbar>
+                <Collapse className={`justify-content-center ${isOpen ? Styles.menu : ''}`} navbar isOpen={isOpen}>
+                    <Nav className='gap-4 gap-lg-4 gap-xl-5' style={{ fontWeight: '500' }} navbar>
                         <NavItem className="align-self-center">
                             <NavbarBrand className="my-0 mx-3 p-0 d-none d-lg-block" href="/">
                                 <img src={Logo} alt="Logo" width="170px" />

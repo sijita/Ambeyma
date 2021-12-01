@@ -14,7 +14,13 @@
 }
 
 .navBar {
-  background-color: #f8f9fa;
+  background-color: #fcfcfc;
+  height: 100vh;
+}
+
+.menu {
+  height: 80vh;
+  display: flex;
 }
 
 .navBar2 {
