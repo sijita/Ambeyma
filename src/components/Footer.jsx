@@ -11,8 +11,12 @@ export default function Footer({ direccion, celular, celular2, correo }) {
                 <a href="https://web.facebook.com/HotelAmbeyma" target="_blank" rel="noreferrer">
                     <div><RiFacebookCircleFill className="fs-3" style={{color: '#F23339'}} /></div>
                 </a>
-                <div><RiWhatsappFill className="fs-3" style={{color: '#F23339'}} /></div>
-                <div><RiInstagramFill className="fs-3" style={{color: '#F23339'}} /></div>
+                <a href="https://api.whatsapp.com/send?phone=573115905930&text=Hola!." target="_blank" rel="noreferrer">
+                    <div><RiWhatsappFill className="fs-3" style={{color: '#F23339'}} /></div>
+                </a>
+                <a href="https://www.instagram.com/hosteria_ambeyma/" target="_blank" rel="noreferrer">
+                    <div><RiInstagramFill className="fs-3" style={{color: '#F23339'}} /></div>
+                </a>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-center mb-5 align-items-center gap-5">
                 <div className="col">

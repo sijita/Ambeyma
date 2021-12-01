@@ -45,9 +45,9 @@ const Gallery = () => {
                 menu5="Galería"
                 menu6="Contacto"
             />
-            <h1 className="text-center my-5" style={{color: '#F23339', fontWeight: '600'}}>Galería</h1>
+            <h1 className="text-center mt-5 mb-0" style={{color: '#F23339', fontWeight: '600'}}>Galería</h1>
             <GalleryCards
-                titulo={["Eventos ", <IoTicketOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '40px', fontSize: '30px'}} />]}
+                titulo={["Eventos ", <IoTicketOutline className="m-2" style={{color: '#E32E33', fontSize: '25px'}} />]}
                 texto="Hostería Ambeyma es el lugar por excelencia para  cualquier tipo de evento. Contamos con 
                 el respaldo de toda la gente."
                 imagen1={Evento1}
@@ -63,7 +63,7 @@ const Gallery = () => {
                 propiedades="align-self-center p-md-5"
             />
             <GalleryCards
-                titulo={["Habitaciones ", <IoBedOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '40px', fontSize: '30px'}} />]}
+                titulo={["Habitaciones ", <IoBedOutline className="m-2" style={{color: '#E32E33', fontSize: '25px'}} />]}
                 texto="En hostería Ambeyma Tenemos las mejores habitaciones para tu comodidad y bienestar."
                 imagen1={Habitacion1}
                 imagen2={Habitacion2}
@@ -78,7 +78,7 @@ const Gallery = () => {
                 propiedades="align-self-center p-md-5 order-md-2"
             />
             <GalleryCards
-                titulo={["Piscinas ", <IoWaterOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '40px', fontSize: '30px'}} />]}
+                titulo={["Piscinas ", <IoWaterOutline className="m-2" style={{color: '#E32E33', fontSize: '25px'}} />]}
                 texto="Nuestras piscinas son diversión garantizada para toda tu familia y amigos."
                 imagen1={Piscina1}
                 imagen2={Piscina2}
@@ -93,7 +93,7 @@ const Gallery = () => {
                 propiedades="align-self-center p-md-5"
             />
             <GalleryCards
-                titulo={["Canchas sintéticas ", <IoFootballOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '40px', fontSize: '30px'}} />]}
+                titulo={["Canchas sintéticas ", <IoFootballOutline className="m-2" style={{color: '#E32E33', fontSize: '25px'}} />]}
                 texto="Canchas de fútbol 5 y futbol 11 para que vengas a jugar."
                 imagen1={Sintetica}
                 imagen2={Sintetica2}
@@ -109,7 +109,8 @@ const Gallery = () => {
             />
             <Footer 
                 direccion='CR 10 # 12-21 - Garzón, Huila'
-                celular='311 2194526'
+                celular='311 5905930'
+                celular2='(608) 8332022'
                 correo='hosteriaambeymagarzon@hotmail.com'
             />
         </>

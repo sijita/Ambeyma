@@ -11,7 +11,7 @@ return (
                             <IoBedOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} /> 
                             <p className="d-inline m-0 align-self-center fs-5">{servicio1}</p>
                         </div>
-                        <div className="d-flex p-3 p-md-4 p-lg-5 justify-content-center justify-content-md-start">
+                        <div className="d-flex p-3 p-md-4 p-lg-5  justify-content-center justify-content-md-start">
                             <IoWaterOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} />
                             <p className="d-inline m-0 align-self-center fs-5">{servicio2}</p>
                         </div>

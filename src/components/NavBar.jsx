@@ -36,14 +36,14 @@ export default function NavBar({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
                             </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="/" className="text-decoration-none text-dark">
+                            <NavLink to="/" className="text-decoration-none text-dark">
                                 {menu2}
-                            </a>
+                            </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="/" className="text-decoration-none text-dark">
+                            <NavLink to="/" className="text-decoration-none text-dark">
                                 {menu3}
-                            </a>
+                            </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
                             <NavLink to="/habitaciones" activeStyle={{color: '#F23339', fontWeight: '600'}} className="text-decoration-none" style={{ color: '#282529' }}>
@@ -56,9 +56,9 @@ export default function NavBar({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
                             </NavLink>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="/" className="text-decoration-none text-dark">
+                            <NavLink to="/" className="text-decoration-none text-dark">
                                 {menu6}
-                            </a>
+                            </NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

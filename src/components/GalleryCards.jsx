@@ -7,7 +7,7 @@ export default function GalleryCards({ titulo, texto, imagen1, imagen2, imagen3,
     return (
         <div className="d-flex flex-column p-5 py-md-5 px-md-0 p-lg-5 gap-3 gap-md-0 flex-md-row align-content-center justify-content-center my-5 container" >
             <div className={`${Styles.cardW} ${propiedades}`}>
-                <h1 className="d-inline" style={{color: "#F23339", fontWeight: '600'}}>{titulo}</h1>
+                <h2 className="d-inline" style={{color: "#F23339", fontWeight: '600'}}>{titulo}</h2>
                 <p className="fs-5 mt-3" style={{textAlign: 'justify'}}>{texto}</p>
             </div>
                 <Carousel plugins={[
@@ -21,6 +21,7 @@ export default function GalleryCards({ titulo, texto, imagen1, imagen2, imagen3,
                         },
                     ]}   
                     animationSpeed={1000}
+                    className="rounded"
                 >
                     <img src={imagen1} width="100%" height="400px" alt="imagen" style={{objectFit: 'cover'}} className="rounded" />
                     <img src={imagen2} width="100%" height="400px" alt="imagen" style={{objectFit: 'cover'}} className="rounded" />
