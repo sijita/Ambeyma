@@ -14,7 +14,7 @@ export default function BedSection({ habitacion1, habitacion2, habitacion3, habi
     const w = <TiHeartOutline className="fs-5" style={{color: '#E32E33'}} /> 
 
     return (
-        <section className="container p-4" id="habitaciones">
+        <section className="container p-5" id="habitaciones">
             <h1 className="m-0 text-center mx-auto text-break" style={{fontWeight: '600', color: '#F23339'}}>Habitaciones</h1>
             <div className="row row-cols-1 row-cols-md-2 row-cols-xl-4 mt-5">
                 <div className={`${Styles.bed} col p-3 card border-0`}>

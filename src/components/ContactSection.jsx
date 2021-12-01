@@ -56,7 +56,7 @@ function EmailInput({ type = 'email', label }) {
 
 export default function ContactSection() {
     return (
-        <section className="container p-4 my-5" id="contacto">
+        <section className="container p-5 my-5" id="contacto">
             <h1 className="m-0 text-center mx-auto mb-5 text-break" style={{fontWeight: '600', color: '#F23339'}}>Contáctanos</h1>
             <div className="d-flex justify-content-center mb-4 mx-auto">
                     <form action="https://api.web3forms.com/submit" method="POST" className="text-center" style={{ width: '100%', maxWidth: '500px' }}>
