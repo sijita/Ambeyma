@@ -5,7 +5,7 @@ import Styles from '../css/galleryCard.module.css'
 export default function GalleryCards({ titulo, texto, imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, propiedades }) {
     
     return (
-        <div className="d-flex flex-column p-4 py-md-5 px-md-0 p-lg-5 gap-3 gap-md-0 flex-md-row align-content-center justify-content-center container" >
+        <div className="d-flex flex-column p-5 py-md-5 px-md-0 p-lg-5 gap-3 gap-md-0 flex-md-row align-content-center justify-content-center container" >
             <div className={`${Styles.cardW} ${propiedades}`}>
                 <h2 className="d-inline" style={{color: "#F23339", fontWeight: '600'}}>{titulo}</h2>
                 <p className="fs-5 mt-3" style={{textAlign: 'justify'}}>{texto}</p>
