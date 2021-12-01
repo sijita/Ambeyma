@@ -45,6 +45,7 @@
 .headerSubtitle {
   font-size: 50px;
   font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(20, 20, 20, 0.5);
 }
 
 @media (max-width: 575.98px) {

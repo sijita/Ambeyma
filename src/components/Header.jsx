@@ -9,7 +9,7 @@ import {
 } from "reactstrap";
 import Logo from "../images/Logo.png";
 import Styles from '../css/header.module.css';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
@@ -32,9 +32,9 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
                             </NavbarBrand>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <NavLink to={"/"} className="text-decoration-none" style={{ color: '#F23339', fontWeight: '600' }}>
+                            <Link to={"/"} className="text-decoration-none" style={{ color: '#F23339', fontWeight: '600' }}>
                                 {menu1}
-                            </NavLink>
+                            </Link>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
                             <a href="#nosotros" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
@@ -47,14 +47,14 @@ export default function Header({ menu1, menu2, menu3, menu4, menu5, menu6 }) {
                             </a>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <a href="#habitaciones" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <Link to="/habitaciones" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu4}
-                            </a>
+                            </Link>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
-                            <NavLink to={"/galeria"} className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
+                            <Link to={"/galeria"} className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>
                                 {menu5}
-                            </NavLink>
+                            </Link>
                         </NavItem>
                         <NavItem className="fs-5 align-self-center">
                             <a href="#contacto" className="text-decoration-none text-dark" style={{ fontWeight: '500' }}>

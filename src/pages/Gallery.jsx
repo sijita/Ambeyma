@@ -45,6 +45,7 @@ const Gallery = () => {
                 menu5="Galería"
                 menu6="Contacto"
             />
+            <h1 className="text-center my-5" style={{color: '#F23339', fontWeight: '600'}}>Galería</h1>
             <GalleryCards
                 titulo={["Eventos ", <IoTicketOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '40px', fontSize: '30px'}} />]}
                 texto="Hostería Ambeyma es el lugar por excelencia para  cualquier tipo de evento. Contamos con 

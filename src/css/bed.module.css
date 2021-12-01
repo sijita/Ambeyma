@@ -1,5 +1,11 @@
 .bed {
-    height: 550px;
+    height: 100%;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    bottom: 0%;
 }
 
 .imagen {

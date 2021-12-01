@@ -1,15 +1,14 @@
-import React from 'react'
 import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import Styles from '../css/galleryCard.module.css'
 
 export default function GalleryCards({ titulo, texto, imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, propiedades }) {
     
     return (
         <div className="d-flex flex-column p-5 py-md-5 px-md-0 p-lg-5 gap-3 gap-md-0 flex-md-row align-content-center justify-content-center my-5 container" >
-            <div className={propiedades} style={{width: '85%'}}>
+            <div className={`${Styles.cardW} ${propiedades}`}>
                 <h1 className="d-inline" style={{color: "#F23339", fontWeight: '600'}}>{titulo}</h1>
-                <hr style={{color: '#E32E33'}} />
-                <p className="fs-5" style={{textAlign: 'justify'}}>{texto}</p>
+                <p className="fs-5 mt-3" style={{textAlign: 'justify'}}>{texto}</p>
             </div>
                 <Carousel plugins={[
                     'infinite',
