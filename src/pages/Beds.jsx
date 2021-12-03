@@ -45,14 +45,14 @@ export default function Beds() {
                 texto="Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei."
                 imagen1={imagen4}
                 imagen2={imagen4}
-                propiedades="mt-4 mb-5 p-0 container shadow"
+                propiedades="mt-4 mb-5 p-0 container"
             />
             <BedCards 
                 titulo={["Romántica ", <TiHeartOutline className="fs-4" style={{color: '#E32E33'}} />]}
                 texto="Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei."
                 imagen1={imagen5}
                 imagen2={imagen6}
-                propiedades="my-5 p-0 container shadow"
+                propiedades="my-5 p-0 container"
             />
             <Footer 
                 direccion='CR 10 # 12-21 - Garzón, Huila'
