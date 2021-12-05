@@ -9,32 +9,32 @@ return (
                     <div className="col p-xl-5">
                         <div className="d-flex p-3 p-md-4 p-lg-5 justify-content-center justify-content-md-start">
                             <IoBedOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} /> 
-                            <p className="d-inline m-0 align-self-center fs-5">{servicio1}</p>
+                            <p className="d-inline m-0 align-self-center fs-5" style={{width: '110px'}}>{servicio1}</p>
                         </div>
                         <div className="d-flex p-3 p-md-4 p-lg-5  justify-content-center justify-content-md-start">
                             <IoWaterOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} />
-                            <p className="d-inline m-0 align-self-center fs-5">{servicio2}</p>
+                            <p className="d-inline m-0 align-self-center fs-5" style={{width: '110px'}}>{servicio2}</p>
                         </div>
                     </div>
                     <div className="col p-xl-5">
                         <div className="d-flex p-3 p-md-4 p-lg-5 justify-content-center justify-content-md-start">
                             <IoBeerOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} />
-                            <p className="d-inline m-0 align-self-center fs-5">{servicio3}</p>
+                            <p className="d-inline m-0 align-self-center fs-5" style={{width: '110px'}}>{servicio3}</p>
                         </div>
                         <div className="d-flex p-3 p-md-4 p-lg-5 justify-content-center justify-content-md-start">
                             <IoTicketOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} />
-                            <p className="d-inline m-0 align-self-center fs-5">{servicio4}</p>
+                            <p className="d-inline m-0 align-self-center fs-5" style={{width: '110px'}}>{servicio4}</p>
                         </div>
                     
                     </div>
                     <div className="col p-xl-5">
                         <div className="d-flex p-3 p-md-4 p-lg-5 justify-content-center justify-content-md-start">
                             <IoFootballOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} />
-                            <p className="d-inline m-0 align-self-center fs-5">{servicio5}</p>
+                            <p className="d-inline m-0 align-self-center fs-5" style={{width: '110px'}}>{servicio5}</p>
                         </div>
                         <div className="d-flex p-3 p-md-4 p-lg-5 justify-content-center justify-content-md-start">
                             <IoWifiOutline className="m-2 align-self-center" style={{color: '#E32E33', width: '50px', fontSize: '30px'}} />
-                            <p className="d-inline m-0 align-self-center fs-5">{servicio6}</p>
+                            <p className="d-inline m-0 align-self-center fs-5" style={{width: '110px'}}>{servicio6}</p>
                         </div>
                     </div>
                 </div>
