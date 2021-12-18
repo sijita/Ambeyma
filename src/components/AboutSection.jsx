@@ -9,7 +9,6 @@ export function Card({ titulo, subtitulo, texto, imagen }) {
             <p className="m-0 fs-5" style={{textAlign: 'justify'}}>
                 {texto}
             </p>
-            <a href="/" className="mb-4 mb-sm-0 text-decoration-none btn btn-sm w-75 mx-auto p-2 text-light rounded-pill btn-danger fs-6" style={{backgroundColor: '#E32E33'}}>Más información</a>
         </div>
         <div className="col d-flex align-items-center">
             <img src={imagen} alt="Imagen" className="img-fluid rounded-3 shadow" width="100%" style={{objectFit: "cover", maxHeight: "400px"}} />

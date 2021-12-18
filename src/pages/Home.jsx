@@ -19,7 +19,7 @@ const Home = () => {
             <AboutSection
                 titulo='Hostería Ambeyma' 
                 subtitulo='Sobre nosotros' 
-                texto='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry´s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+                texto='Ubicado en la entrada de Garzón, la hostería Ambeyma es el mejor sitio de hospedaje y recreación para pasar tus días en familia.'
             />
             <ServicesSection 
                 servicio1='Hospedaje'

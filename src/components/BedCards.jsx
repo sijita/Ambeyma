@@ -1,26 +1,20 @@
 import Styles from '../css/bedCards.module.css'
-import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
+import Carousel from 'nuka-carousel';
 
 export default function BedCards({titulo, texto, imagen1, imagen2, propiedades}) {
 
     return (
         <div className={`${Styles.container} ${propiedades}`} >
-                <Carousel plugins={[
-                    'infinite',
-                    'fastSwipe',
-                    {
-                    resolve: autoplayPlugin,
-                    options: {
-                        interval: 2000,
-                        }
-                    },
-                    ]}   
-                    animationSpeed={1000}
+                <Carousel 
+                    autoplay={true}
+                    autoplayInterval={"2000"}
+                    withoutControls={true}
+                    wrapAround={true}
+                    pauseOnHover={false}
                     className={`${Styles.card}`}
                 >
-                    <img src={imagen1} width="100%" height="500px" alt="imagen" style={{objectFit: 'cover'}} />
-                    <img src={imagen2} width="100%" height="500px" alt="imagen" style={{objectFit: 'cover'}} />
+                    <img src={imagen1} width="100%" height="500px" alt="imagen" className="rounded" style={{objectFit: 'cover'}} />
+                    <img src={imagen2} width="100%" height="500px" alt="imagen" className="rounded" style={{objectFit: 'cover'}} />
                 </Carousel>
                 <div className={`${Styles.content} rounded-bottom`}>
                     <h2 style={{color: '#FFF', fontWeight: '600'}}>{titulo} </h2>

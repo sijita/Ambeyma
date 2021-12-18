@@ -20,7 +20,7 @@ export default function BedSection({ habitacion1, habitacion2, habitacion3, habi
                 <div className={`${Styles.bed} col p-3 card border-0`}>
                     <img src={Habitacion1} alt="Habitación1" className={`${Styles.imagen} rounded-3 shadow`} width="100%"  style={{objectFit: 'cover'}} />
                     <div className={`${Styles.content} card-body d-flex flex-column justify-content-center align-items-center`} style={{height: '100px'}}>
-                        <h4 className="d-flex align-items-center m-0" style={{color: '#FFF'}}>{x}{x}&nbsp;{habitacion1}</h4>
+                        <h4 className="d-flex align-items-center m-0" style={{color: '#FFF'}}>{x}&nbsp;{habitacion1}</h4>
                     </div>
                 </div>
                 <div className={`${Styles.bed} col p-3 card border-0`}>

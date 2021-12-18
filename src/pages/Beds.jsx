@@ -26,8 +26,8 @@ export default function Beds() {
             <h1 className="text-center mt-5" style={{color: '#F23339', fontWeight: '600'}}>Habitaciones</h1>
             <div className="row row-cols-1 row-cols-md-2 mx-auto p-0 p-sm-5 p-md-2" style={{maxWidth: '1350px'}}>
                 <BedCards 
-                    titulo={["Suite ", <TiUserOutline className="fs-4" style={{color: '#E32E33'}} />, <TiUserOutline className="align-self-center fs-4" style={{color: '#E32E33'}} />]}
-                    texto="Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque."
+                    titulo={["Suite ", <TiUserOutline className="align-self-center fs-4" style={{color: '#E32E33'}} />]}
+                    texto="La habitación suite es nuestra recomendación especial para que te acomodes solo o en pareja."
                     imagen1={imagen1}
                     imagen2={imagen2}
                     propiedades="my-5 p-0 px-md-2 container"
