@@ -19,7 +19,7 @@ const Home = () => {
             <AboutSection
                 titulo='Hostería Ambeyma' 
                 subtitulo='Sobre nosotros' 
-                texto='Ubicado en la entrada de Garzón, la hostería Ambeyma es el mejor sitio de hospedaje y recreación para pasar tus días en familia.'
+                texto='Ubicado en la entrada de Garzón, la hostería Ambeyma es el mejor sitio de hospedaje y recreación para que vengas a descansar o divertirte.'
             />
             <ServicesSection 
                 servicio1='Hospedaje'

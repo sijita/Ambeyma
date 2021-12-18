@@ -27,14 +27,14 @@ export default function Beds() {
             <div className="row row-cols-1 row-cols-md-2 mx-auto p-0 p-sm-5 p-md-2" style={{maxWidth: '1350px'}}>
                 <BedCards 
                     titulo={["Suite ", <TiUserOutline className="align-self-center fs-4" style={{color: '#E32E33'}} />]}
-                    texto="La habitación suite es nuestra recomendación especial para que te acomodes solo o en pareja."
+                    texto="Recomendación especial para que te acomodes solo/sola o en pareja."
                     imagen1={imagen1}
                     imagen2={imagen2}
                     propiedades="my-5 p-0 px-md-2 container"
                 />
                 <BedCards 
                     titulo={["Doble ", <TiUserAddOutline className="fs-4" style={{color: '#E32E33'}} />]}
-                    texto="Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque."
+                    texto="Cuenta con dos comodas camas para más de una persona"
                     imagen1={imagen3}
                     imagen2={imagen3}
                     propiedades="my-5 p-0 px-md-2 container"
@@ -42,14 +42,14 @@ export default function Beds() {
             </div>
             <BedCards 
                 titulo={["Familiar ", <TiGroupOutline className="fs-4" style={{color: '#E32E33'}} />]}
-                texto="Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei."
+                texto="Es perfecta para la comodidad de toda tu familia o grupo de amigos"
                 imagen1={imagen4}
                 imagen2={imagen4}
                 propiedades="mt-4 mb-5 p-0 container"
             />
             <BedCards 
                 titulo={["Romántica ", <TiHeartOutline className="fs-4" style={{color: '#E32E33'}} />]}
-                texto="Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei."
+                texto="Decoradas para todo tipo de ocasión especial"
                 imagen1={imagen5}
                 imagen2={imagen6}
                 propiedades="my-5 p-0 container"
