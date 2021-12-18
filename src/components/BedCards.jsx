@@ -7,7 +7,8 @@ export default function BedCards({titulo, texto, imagen1, imagen2, propiedades})
         <div className={`${Styles.container} ${propiedades}`} >
                 <Carousel 
                     autoplay={true}
-                    autoplayInterval={"2000"}
+                    autoplayInterval={"2500"}
+                    autoplayReverse={true}
                     withoutControls={true}
                     wrapAround={true}
                     pauseOnHover={false}

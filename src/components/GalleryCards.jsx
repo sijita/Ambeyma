@@ -11,7 +11,8 @@ export default function GalleryCards({ titulo, texto, imagen1, imagen2, imagen3,
             </div>
                 <Carousel 
                     autoplay={true}
-                    autoplayInterval={"1500"}
+                    autoplayInterval={"2500"}
+                    autoplayReverse={true}
                     withoutControls={true}
                     wrapAround={true}
                     pauseOnHover={false}
