@@ -19,7 +19,8 @@ const Home = () => {
             <AboutSection
                 titulo='Hostería Ambeyma' 
                 subtitulo='Sobre nosotros' 
-                texto='Ubicado en la entrada de Garzón, la hostería Ambeyma es el mejor sitio de hospedaje y recreación para que vengas a descansar o divertirte.'
+                texto='Situados en la entrada de Garzón, la hostería Ambeyma es el mejor sitio de hospedaje y recreación para su estancia y/o diversión.
+                        Contamos con varios tipos de habitación, piscinas y canchas sintéticas'
             />
             <ServicesSection 
                 servicio1='Hospedaje'
