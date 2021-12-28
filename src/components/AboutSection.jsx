@@ -1,11 +1,10 @@
 import Imagen1 from "../images/imagen1.jpg";
-import ReactPlayer from "react-player";
 import Video from "../images/video.mp4";
 
 export function Card({ titulo, subtitulo, texto, imagen }) {
   return (
     <div className="row row-cols-1 row-cols-lg-2">
-      <div className="p-5 gap-4 col d-flex flex-column justify-content-center">
+      <div className="my-5 p-lg-5 gap-4 col d-flex flex-column justify-content-center">
         <h1
           className="text-center m-0"
           style={{ fontWeight: "600", color: "#F23339" }}
@@ -20,12 +19,13 @@ export function Card({ titulo, subtitulo, texto, imagen }) {
         </p>
       </div>
       <div className="col d-flex align-items-center p-0">
-        <ReactPlayer
-          url={Video}
+        <video
+          src={Video}
+          type="video/mp4"
           className="img-fluid rounded-3 react-player"
           width="100%"
           style={{ objectFit: "cover", maxHeight: "400px" }}
-          playing
+          controls
           loop
         />
       </div>
