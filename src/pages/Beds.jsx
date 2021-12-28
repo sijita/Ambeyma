@@ -34,7 +34,7 @@ export default function Beds() {
                 />
                 <BedCards 
                     titulo={["Doble ", <TiUserAddOutline className="fs-4" style={{color: '#E32E33'}} />]}
-                    texto="Habitación con dos comodas camas para más de una persona"
+                    texto="Habitación con dos camas para más de una persona"
                     imagen1={imagen3}
                     imagen2={imagen3}
                     propiedades="my-5 p-0 px-md-2 container"
@@ -42,14 +42,14 @@ export default function Beds() {
             </div>
             <BedCards 
                 titulo={["Familiar ", <TiGroupOutline className="fs-4" style={{color: '#E32E33'}} />]}
-                texto="Habitación comoda con múltiples camas para toda tu familia o grupo de amigos"
+                texto="Habitación con múltiples camas para toda tu familia o grupo de amigos"
                 imagen1={imagen4}
                 imagen2={imagen4}
                 propiedades="mt-4 mb-5 p-0 container"
             />
             <BedCards 
                 titulo={["Romántica ", <TiHeartOutline className="fs-4" style={{color: '#E32E33'}} />]}
-                texto="Habitación decorada para una ocasion romántica"
+                texto="Habitación decorada para cualquier ocasión"
                 imagen1={imagen5}
                 imagen2={imagen6}
                 propiedades="my-5 p-0 container"

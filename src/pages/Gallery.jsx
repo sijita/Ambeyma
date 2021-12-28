@@ -53,7 +53,7 @@ const Gallery = () => {
             />
             <GalleryCards
                 titulo={["Piscinas ", <IoWaterOutline className="m-2" style={{color: '#E32E33', fontSize: '25px'}} />]}
-                texto="Contamos con piscinas para niños, adultos y piscina con tobogan para garantizar la diversión de nuestros clientes"
+                texto="Piscinas para niños, adultos y piscina con tobogan"
                 imagen1={Piscina1}
                 imagen2={Piscina2}
                 imagen3={Piscina3}
