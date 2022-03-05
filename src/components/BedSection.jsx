@@ -1,6 +1,6 @@
 import Habitacion1 from '../images/sencilla.webp'
 import Habitacion2 from '../images/doble.webp'
-import Habitacion3 from '../images/grupales.jpg'
+import Habitacion3 from '../images/grupales.webp'
 import Habitacion4 from '../images/especial.webp'
 import Styles from '../css/bed.module.css'
 import { TiUserOutline, TiGroupOutline, TiUserAddOutline, TiHeartOutline } from 'react-icons/ti'
