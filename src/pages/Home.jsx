@@ -4,6 +4,7 @@ import BedSection from '../components/BedSection';
 import ServicesSection from '../components/ServicesSection';
 import Footer from '../components/Footer';
 import ContactSection from '../components/ContactSection';
+import PiscinaCard from "../components/PiscinaCard";
 
 const Home = () => {
     return (
@@ -36,6 +37,7 @@ const Home = () => {
                 habitacion3='Familiar'
                 habitacion4='Romántica'
             />
+            <PiscinaCard />
             <ContactSection />
             <Footer 
                 direccion='CR 10 # 12-21 - Garzón, Huila'

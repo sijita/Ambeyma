@@ -7,7 +7,14 @@ export function Card({ titulo, subtitulo, texto, imagen }) {
       <div className="my-5 p-lg-5 gap-4 col d-flex flex-column justify-content-center">
         <h1
           className="text-center m-0"
-          style={{ fontWeight: "600", color: "#F23339" }}
+          style={{
+            fontWeight: "600",
+            backgroundImage:
+              "linear-gradient(0deg, hsla(0, 100%, 50%, 1) 0%, hsla(0, 100%, 64%, 1) 100%)",
+            WebkitBackgroundClip: "text",
+            backgroundClip: "text",
+            color: "transparent",
+          }}
         >
           {subtitulo}
         </h1>
