@@ -1,5 +1,7 @@
 import Imagen1 from "../images/imagen1.jpg";
 import Video from "../images/video.mp4";
+import Video2 from "../images/rutacafe.mp4";
+import Carousel from "nuka-carousel";
 
 export function Card({ titulo, subtitulo, texto, imagen }) {
   return (
@@ -26,15 +28,47 @@ export function Card({ titulo, subtitulo, texto, imagen }) {
         </p>
       </div>
       <div className="col d-flex align-items-center p-0">
-        <video
-          src={Video}
-          type="video/mp4"
-          className="img-fluid rounded-3 react-player"
-          width="100%"
-          style={{ objectFit: "cover", maxHeight: "400px" }}
-          controls
-          loop
-        />
+        <Carousel
+          defaultControlsConfig={{
+            nextButtonStyle: {
+              backgroundColor: "black",
+              opacity: 1,
+              borderRadius: "10%",
+            },
+            prevButtonStyle: {
+              backgroundColor: "black",
+              opacity: 1,
+              borderRadius: "10%",
+            },
+            nextButtonText: ">",
+            prevButtonText: "<",
+            pagingDotsClassName: "hidden",
+            adaptiveHeight: true,
+          }}
+        >
+          <video
+            src={Video}
+            type="video/mp4"
+            className="img-fluid rounded-3 react-player"
+            width="100%"
+            style={{ objectFit: "cover", maxHeight: "343px" }}
+            controls
+            loop
+          />
+          <video
+            src={Video2}
+            type="video/mp4"
+            className="img-fluid rounded-3 react-player"
+            width="100%"
+            style={{
+              objectFit: "cover",
+              objectPosition: "center",
+              maxHeight: "400px",
+            }}
+            controls
+            loop
+          />
+        </Carousel>
       </div>
     </div>
   );
