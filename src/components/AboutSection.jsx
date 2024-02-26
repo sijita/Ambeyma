@@ -1,9 +1,9 @@
-import Imagen1 from "../images/imagen1.jpg";
 import Video from "../images/video.mp4";
 import Video2 from "../images/rutacafe.mp4";
+import Imagen1 from "../images/promo.jpeg";
 import Carousel from "nuka-carousel";
 
-export function Card({ titulo, subtitulo, texto, imagen }) {
+export function Card({ titulo, subtitulo, texto }) {
   return (
     <div className="row row-cols-1 row-cols-lg-2">
       <div className="my-5 p-lg-5 gap-4 col d-flex flex-column justify-content-center">
@@ -45,7 +45,16 @@ export function Card({ titulo, subtitulo, texto, imagen }) {
             pagingDotsClassName: "hidden",
             adaptiveHeight: true,
           }}
+          style={{
+            maxHeight: "343px",
+          }}
         >
+          <img
+            src={Imagen1}
+            alt="Promo"
+            className="img-fluid rounded-3"
+            style={{ objectFit: "contain", maxHeight: "343px" }}
+          />
           <video
             src={Video}
             type="video/mp4"
@@ -78,12 +87,7 @@ export default function AboutSection({ titulo, subtitulo, texto }) {
   return (
     <section className="container p-5 my-lg-5" id="nosotros">
       <div className="card rounded-3 border-0">
-        <Card
-          titulo={titulo}
-          subtitulo={subtitulo}
-          texto={texto}
-          imagen={Imagen1}
-        />
+        <Card titulo={titulo} subtitulo={subtitulo} texto={texto} />
       </div>
     </section>
   );
